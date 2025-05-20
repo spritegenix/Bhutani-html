@@ -489,8 +489,8 @@
 
               <!-- Contact Form -->
               <div class="col-lg-8">
-                <form
-                  class="form-contact js-contact-form"
+                <form id="contact-form"
+                  class=""
                   method="POST"
                   action="mail.php"
                 >
@@ -527,11 +527,13 @@
                         required="required"
                       ></textarea>
                       <div class="text-right">
-                        <button class="au-btn au-btn--solid" type="submit">
+                        <button id="contact-button" class="au-btn au-btn--solid" type="submit">
                           Send message
                         </button>
                       </div>
+                     
                     </div>
+                     <div class="ajax-response" style="color: #222222;"></div>
                   </div>
                 </form>
               </div>
@@ -657,9 +659,11 @@
     <script src="vendor/select2/select2.min.js"></script>
     <script src="vendor/sweetalert/sweetalert.min.js"></script>
     <script src="vendor/noUiSlider/nouislider.min.js"></script>
-    <script src="js/config-contact.js"></script>
+    <!-- <script src="js/config-contact.js"></script> -->
+     <script src="js/ajax-form.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEmXgQ65zpsjsEAfNPP9mBAz-5zjnIZBw"></script>
     <script src="js/theme-map.js"></script>
+
 
     <!-- Main JS-->
     <script src="js/global.js"></script>
