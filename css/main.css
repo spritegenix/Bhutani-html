@@ -16397,3 +16397,9 @@ button:focus {
     margin-left: 300px;
   }
 }
+
+@media (max-width:1024px) {
+ .title-2 {
+  font-size: 30px;
+} 
+}
