@@ -1,0 +1,9 @@
+.media-project .media__img {
+  overflow: hidden;
+  height: 350px !important;
+}
+.media-project .media__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
